@@ -1,7 +1,7 @@
 Logo Generation and Manipulation with Clustered Generative Adversarial Networks
 ===============================================================================
 
-Code for reproducing experiments in ["Logo Generation and Manipulation with Clustered Generative Adverserial Networks"](https://arxiv.org/abs/1712.04407).
+Code for reproducing experiments in ["Logo Generation and Manipulation with Clustered Generative Adversarial Networks"](https://arxiv.org/abs/1712.04407).
 The models are mainly meant to work with data in HDF5 format (using [h5py](https://www.h5py.org/)) such as our [Large Logo Dataset](https://data.vision.ee.ethz.ch/sagea/lld/), but can easily be adapted to different input data formats (the WGAN models already accepts [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html) and [MNIST](http://yann.lecun.com/exdb/mnist/)).
 
 This repository consists of two main parts:
