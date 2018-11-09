@@ -1,14 +1,14 @@
-Logo Generation and Manipulation with Clustered Generative Adverserial Networks
+Logo Generation and Manipulation with Clustered Generative Adversarial Networks
 ===============================================================================
 
-Code for reproducing experiments in ["Logo Generation and Manipulation with Clustered Generative Adverserial Networks"](https://arxiv.org/abs/).
-The models are mainly meant to work with data in HDF5 format (using [h5py](link)) such as our [Large Logo Dataset], but can easily be adapted to different input data formats (the WGAN models already accepts [CIFAR](url) and [MNIST](link)).
+Code for reproducing experiments in ["Logo Generation and Manipulation with Clustered Generative Adverserial Networks"](https://arxiv.org/abs/1712.04407).
+The models are mainly meant to work with data in HDF5 format (using [h5py](https://www.h5py.org/)) such as our [Large Logo Dataset](https://data.vision.ee.ethz.ch/sagea/lld/), but can easily be adapted to different input data formats (the WGAN models already accepts [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html) and [MNIST](http://yann.lecun.com/exdb/mnist/)).
 
 This repository consists of two main parts:
 
 ### DCGAN
 
-Our adaptation of DCGAN implementing layer conditioning for training with cluster labels. This is largely based on ["DCGAN in Tensorflow"]()
+Our adaptation of DCGAN implementing layer conditioning for training with cluster labels. This is largely based on ["DCGAN in Tensorflow"](https://github.com/carpedm20/DCGAN-tensorflow)
 
 ### WGAN
 
@@ -33,3 +33,6 @@ A note on the `vector.py` file: Both versions contain the code for the models th
 [WGAN - LLD-icon-sharp with 128 RC clusters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_WGAN_LLD-icon-sharp_rc_16.zip)
 
 [WGAM - LLD-logo with 16 RC clusters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_WGAN_LLD-logo_rc_64.zip)
+
+## Large Logo Dataset
+[Website of our LLD Dataset](https://data.vision.ee.ethz.ch/sagea/lld/)
