@@ -19,7 +19,6 @@ import tensorflow.contrib.slim as slim
 import sys
 sys.path.insert(0, '../image-tools')
 import metrics
-import file_handling as fh
 from gauss import gauss_kernel_fixed
 
 pp = pprint.PrettyPrinter()
