@@ -26,11 +26,11 @@ A note on the `vector.py` file: Both versions contain the code for the models th
 
 [DCGAN - LLD-icon with 100 AE clusters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_DCGAN_LLD-icon_ae_100.zip)
 
-[WGAN - LLD-icon with 128 RC cluaters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_WGAN_LLD-icon_rc_128.zip)
+[WGAN - LLD-icon with 128 RC clusters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_WGAN_LLD-icon_rc_128.zip)
 
 [WGAN - LLD-icon-sharp with 128 RC clusters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_WGAN_LLD-icon-sharp_rc_128.zip)
 
-[WGAN - LLD-icon-sharp with 128 RC clusters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_WGAN_LLD-icon-sharp_rc_16.zip)
+[WGAN - LLD-icon-sharp with 16 RC clusters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_WGAN_LLD-icon-sharp_rc_16.zip)
 
 [WGAM - LLD-logo with 16 RC clusters](https://data.vision.ee.ethz.ch/sagea/lld/data/model_WGAN_LLD-logo_rc_64.zip)
 
