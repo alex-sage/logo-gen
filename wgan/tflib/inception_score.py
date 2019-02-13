@@ -16,7 +16,7 @@ import scipy.misc
 import math
 import sys
 
-MODEL_DIR = '/home/sagea/scratch/tmp/imagenet'
+MODEL_DIR = os.path.expanduser('~/.local/share/imagenet')
 DATA_URL = 'http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz'
 softmax = None
 

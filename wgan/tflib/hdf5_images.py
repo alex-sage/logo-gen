@@ -14,7 +14,7 @@ def make_generator(hdf5_file, n_images, batch_size, res, label_name=None):
         random_state.shuffle(indices)
         epoch_count[0] += 1
         for n, i in enumerate(indices):
-            # assuming (B)CWH format
+            # assuming (N)CHW format
             images[n % batch_size] = hdf5_file['data'][i]
             if label_name is not None:
                 labels[n % batch_size] = hdf5_file[label_name][i]

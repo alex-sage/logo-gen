@@ -27,10 +27,20 @@ class Vector(object):
         self.const_y = None
         self.z_dim = 128
 
-    def show_random(self, shape=(), border=True, enum=False, res=32, ret_vec=False, save=False):
-        """Shows random samples of shape 'shape'
+    def show_random(self, shape=(), border=True, enum=False, res=32, ret_vec=False, save=None):
+        """
+        Shows a collection of  random samples with a pre-determined shape
         If shape is an empty tuple, a standard batch is shown, if it is a 1-tuple it defines
-        the width of the shown image instead of a square"""
+        the width of the shown image instead of a square
+        :param shape: Tuple defining the shape (in number of samples) of the output.
+        :param border: Flag, should there be a white border in-between samples?
+        :param enum: Flag, should the samples be enumerated?
+        :param res: Output resolution of a single sample in pixels (assumed square)
+        :param ret_vec: Flag, should the latent vecotr and labels be returned?
+        :param save: Path to image file if output should be saved, 'None' if not
+        :return: Returns (z, y) if ret_vec==True
+        """
+        """"""
         if len(shape) <= 1:
             size = self.cfg.BATCH_SIZE
         elif len(shape) == 2:
